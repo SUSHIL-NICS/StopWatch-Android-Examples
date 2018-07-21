@@ -58,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
         lap = (Button)findViewById(R.id.button4) ;
         recyclerview=(RecyclerView)findViewById(R.id.recyclerview);
         listView = (ListView)findViewById(R.id.listview1);
-
         handler = new Handler() ;
 
         ListElementsArrayList = new ArrayList<String>(Arrays.asList(ListElements));
@@ -68,9 +67,9 @@ public class MainActivity extends AppCompatActivity {
                 ListElementsArrayList
         );
 
-        SimpleDateFormat mDateFormat = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss a");
-        //current_textView.setText(mDateFormat.format(System.currentTimeMillis()));
-        current_textView.setText(mDateFormat.format(new Date()));
+        SimpleDateFormat mDateFormat = new SimpleDateFormat("dd-MMM-yyyy HH:mm:ss a");
+        current_textView.setText(mDateFormat.format(System.currentTimeMillis()));
+       // current_textView.setText(mDateFormat.format(new Date()));
 
 
         listView.setAdapter(adapter);
