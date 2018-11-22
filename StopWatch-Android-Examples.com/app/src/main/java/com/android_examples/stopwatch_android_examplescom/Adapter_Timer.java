@@ -1,5 +1,7 @@
 package com.android_examples.stopwatch_android_examplescom;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -26,9 +28,7 @@ public class Adapter_Timer extends RecyclerView.Adapter<Adapter_Timer.ViewHolder
     public Adapter_Timer.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.timer, parent, false);
-
         ViewHolder viewHolder1 = new ViewHolder(view);
-
         return viewHolder1;
     }
 

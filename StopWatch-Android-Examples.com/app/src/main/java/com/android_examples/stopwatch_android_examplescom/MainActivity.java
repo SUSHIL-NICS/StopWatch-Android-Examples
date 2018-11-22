@@ -19,10 +19,11 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+    String TAG=MainActivity.class.getSimpleName();
 
-    TextView textView ;
-    TextView current_textView ;
-    TextView elapsed_textView ;
+    TextView textView;
+    TextView current_textView;
+    TextView elapsed_textView;
     private RecyclerView recyclerview;
     private ArrayList<ModelTimer> timeList=new ArrayList<ModelTimer>();
     private Adapter_Timer adapter_timer;
