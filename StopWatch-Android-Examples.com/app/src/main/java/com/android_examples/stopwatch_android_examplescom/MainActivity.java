@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     String TAG=MainActivity.class.getSimpleName();
 
     TextView textView;
-    TextView kktextView;
+    TextView ggtextView;
     TextView current_textView;
     TextView elapsed_textView;
     private RecyclerView recyclerview;
