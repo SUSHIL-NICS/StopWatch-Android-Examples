@@ -6,6 +6,7 @@ package com.android_examples.stopwatch_android_examplescom;
 
 public class ModelTimer {
     private String startTime;
+//    private String startTime;
     private String endTime;
     private String elapsedTime;
     private String currentTime;
